@@ -13,3 +13,4 @@ Generate Random Strings in Style
 ## NOTE
 * Some Bugs may be present. This was done in 2 hours.
 * Make sure SubSystem is set to Windows (/SUBSYSTEM:WINDOWS).
+* Press Home Key to Exit.
