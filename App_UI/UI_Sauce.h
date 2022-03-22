@@ -125,7 +125,7 @@ namespace ImGui
 		Style->Colors[ImGuiCol_SliderGrabActive] = ImColor(255, 255, 255);
 	}
 
-#pragma region ARPG Gui Setup
+#pragma region ARSG Gui Setup
 	void DisplayTopHeader()
 	{
 		ImGui::SetCursorPosY(10);
