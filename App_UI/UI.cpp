@@ -190,7 +190,7 @@ void Render::UI()
 {
     ImGui::SetNextWindowPos(ImVec2(screen_Size.x / 2.25, screen_Size.y / 2.25), ImGuiCond_Once);
 
-    if (ImGui::Begin("ARPG", 0, ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoSavedSettings | ImGuiWindowFlags_NoScrollWithMouse | ImGuiWindowFlags_NoScrollbar | ImGuiWindowFlags_NoTitleBar))
+    if (ImGui::Begin("ARSG", 0, ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoSavedSettings | ImGuiWindowFlags_NoScrollWithMouse | ImGuiWindowFlags_NoScrollbar | ImGuiWindowFlags_NoTitleBar))
     {
         ImGui::DisplayTopHeader();
 

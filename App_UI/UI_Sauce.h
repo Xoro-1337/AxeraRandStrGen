@@ -95,7 +95,7 @@ namespace ImGui
 	float GetY()
 	{
 		return ImGui::GetContentRegionAvail().y;
-	}
+	} 
 
 	void SubSectionGUITheme()
 	{
