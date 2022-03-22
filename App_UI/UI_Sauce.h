@@ -130,6 +130,11 @@ namespace ImGui
 	{
 		ImGui::SetCursorPosY(10);
 		CenterText("Axera Random String Generator", 1, false);
+		ImGui::SetCursorPos(ImVec2(290, 8));
+		if (ImGui::Button("Close", ImVec2(50, 20)))
+		{
+			exit(0);
+		}
 	}
 
 	void DisplayGenRandString()
